@@ -36,7 +36,7 @@ class MSMT17(ImageDataset):
         - cameras: 15.
     """
     dataset_dir = 'msmt17'
-    dataset_url = None
+    dataset_url = 'https://cloud.tsinghua.edu.cn/f/55d7e5aa3c224f49b908/?dl=1'
 
     def __init__(self, root='', **kwargs):
         self.root = osp.abspath(osp.expanduser(root))
